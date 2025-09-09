@@ -1,0 +1,15 @@
+{
+    "name": "codandocomamor/php-tudomix",
+    "autoload": {
+        "psr-4": {
+            "app\\": "app"
+        }
+    },
+    "authors": [
+        {
+            "name": "Dev Vinicius Miranda",
+            "email": "viniciusmirandadev@gmail.com"
+        }
+    ],
+    "require": {}
+}

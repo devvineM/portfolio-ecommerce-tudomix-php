@@ -1,0 +1,23 @@
+body{
+
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+input{
+    background-color: transparent !important;
+}
+
+.--logo{
+
+    width: 200px;
+
+} 
+
+main{
+    flex: 1;
+}

@@ -1,0 +1,9 @@
+#form-cart {
+    justify-content: flex-end;
+}
+
+#form-cart .--window {
+    min-height: 100vh;
+    height: 100%;
+    border-radius: 0;
+}

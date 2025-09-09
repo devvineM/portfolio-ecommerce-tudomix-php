@@ -1,0 +1,35 @@
+body{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+main{
+    flex: 1;
+}
+
+#area-profile .--card-avatar{
+    position: relative;
+}
+
+#area-profile .--card-avatar i{
+    position: absolute;
+    margin: 0 auto;
+}
+
+#area-profile .--card-avatar input{
+    position: absolute;
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+}
+#area-profile .--avatar {
+    width: 200px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 30%;
+}

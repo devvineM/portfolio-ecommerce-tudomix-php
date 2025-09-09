@@ -1,0 +1,87 @@
+#area-header {
+    opacity: .95;
+}
+
+#area-header .container {
+    position: relative;
+    min-height: 600px;
+    background-color: var(--bs-secondary-bg);
+    overflow: hidden;
+}
+
+#area-header .container::before{
+    content: '';
+    position: absolute;
+    top: -300px;
+    right: -180px;
+    width: 747px;
+    height: 747px;
+    border-radius: 100%;
+    background-color: var(--bs-extend-primary);
+}
+
+#area-header .--btn-left, 
+#area-header .--btn-right
+{
+
+    z-index: 1;
+
+}
+
+#area-header .container-product-image{
+    position: relative;
+    overflow: hidden;
+}
+
+#area-header .--product-image {
+
+    width: 100%;
+    max-width: 450px;
+
+}
+
+#area-categorys .--card{
+    position: relative;
+    width: 150px;
+    height: 200px;
+    overflow: hidden;
+    margin: .5rem;
+}
+
+#area-categorys .--card::before{
+    content: "";
+    position: absolute;
+    top: -75px;
+    right: -20px;
+    width: 150px;
+    height: 150px;
+    border-radius: 150px;
+    background-color: rgba(var(--bs-extend-primary-rgb), .95);
+    box-shadow: var(--bs-extend-shadow-luar)
+}
+
+#area-categorys .--card img{
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+}
+
+#area-categorys .--card p{
+    z-index: 1;
+}
+
+#area-products .--card{
+    position: relative;
+    max-width: 300px;
+}
+
+#area-products .--card img{
+    width: 300px;
+    height: 300px;
+}
+
+#area-products .--btn-heart {
+    position: absolute;
+    right: 6px;
+    top: 6px;
+}
