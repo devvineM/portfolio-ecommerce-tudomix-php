@@ -12,13 +12,12 @@
     <link rel="stylesheet" href="./src/css/navigation.css">
     <link rel="stylesheet" href="./src/css/footer.css">
     <link rel="stylesheet" href="./src/css/form-cart.css">
-    <?= $router->css->getCss(); ?>
+    <?= $this->styles ?>
     <title>TudoMix</title>
 </head>
 <body data-bs-theme="dark">
-    <?php require_once '../app/views/layouts/navigation.phtml' ?>
-    <?php require_once '../app/views/'. $router->route->view.'.phtml'?>
-    <?php require_once '../app/views/layouts/footer.phtml' ?>
-    <?php require_once '../app/views/layouts/form-cart.phtml' ?>
+    <?php
+        require_once $this->view;
+    ?>
 </body>
 </html>
